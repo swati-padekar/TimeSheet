@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "time-sheet-client-side-solution",
+    "id": "83ba2413-8f18-4906-b914-ef5d07568b04",
+    "version": "1.3.1.5",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.16.1"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "TimeSheet description"
+      },
+      "longDescription": {
+        "default": "TimeSheet description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "time-sheet Feature",
+        "description": "The feature that activates elements of the time-sheet solution.",
+        "id": "c745c860-b797-439e-8293-98b3a0c5558b",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/time-sheet.sppkg"
+  }
+}
